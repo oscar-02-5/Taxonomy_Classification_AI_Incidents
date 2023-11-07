@@ -1,0 +1,19 @@
+-Update labels
+-Check the number of incidents and reports
+-Approaches to labeling
+-
+-Project timeline and next steps:
+	- Fine tuning on zero-shot.
+	-Dashboard to show information (gradio from hugging face)
+	- Prompt engineering? to compare accuracies
+
+
+
+
+Finish labeling the dataset. Make sure it is properly labeled.
+Calculate the accuracy of the zero-shot model
+Do fine tuning to the zero-shot model
+Calculate the accuracy of the finetune model and see that it is > 90. If not, go to step 3.
+Make Gradio Interface (two tabs). One to write the incident and classify it and another to see all the incidents classified by taxonomies.
+Extra: Test the prompt engineering (with hugging face models) and see if it improves the accuracy of the model you have fine-tuned.
+	
